@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Manwaar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="custom-cursor"></div>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html" aria-label="Manwaar home">
+                <img src="manwaar logo/Gemini_Generated_Image_i5vhwhi5vhwhi5vh (1).png" alt="Manwaar" />
+            </a>
+            <nav class="main-nav" role="navigation" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="blog-1.html">Blog</a></li>
+                </ul>
+            </nav>
+            <div class="utilities">
+                <a href="#" id="search-icon" aria-label="Search"><i class="fas fa-search"></i></a>
+                <a href="profile.html" aria-label="Profile"><i class="fas fa-user"></i></a>
+                <a href="cart.html" aria-label="Shopping Cart"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="shop-hero" class="hero">
+            <div class="hero-bg" style="background-image:url('https://img.freepik.com/free-photo/assortment-nuts-seeds-bowls_23-2148429309.jpg')" aria-hidden="true"></div>
+            <div class="hero-content container">
+                <h1>Discover Our <span class="gold">Collection</span></h1>
+                <p class="hero-sub">Explore our curated selection of premium treats and delights.</p>
+            </div>
+        </section>
+
+        <section id="shop-page" class="section">
+            <div class="container">
+                <div class="shop-content">
+                    <aside class="filter-sidebar">
+                        <div class="filter-group">
+                            <h3>Categories</h3>
+                            <div class="filter-options">
+                                <button class="filter-btn active" data-category="all">
+                                    <span class="filter-icon"><i class="fas fa-th-large"></i></span>
+                                    All Products
+                                </button>
+                                <button class="filter-btn" data-category="Flavoured Dry Fruits">
+                                    <span class="filter-icon"><i class="fas fa-seedling"></i></span>
+                                    Flavoured Dry Fruits
+                                </button>
+                                <button class="filter-btn" data-category="Dehydrated Fruits">
+                                    <span class="filter-icon"><i class="fas fa-apple-alt"></i></span>
+                                    Dehydrated Fruits
+                                </button>
+                                <button class="filter-btn" data-category="Mouth Fresheners">
+                                    <span class="filter-icon"><i class="fas fa-leaf"></i></span>
+                                    Mouth Fresheners
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="filter-group">
+                            <h3>Sort By</h3>
+                            <div class="filter-options">
+                                <button class="filter-btn active" data-sort="featured">
+                                    <span class="filter-icon"><i class="fas fa-star"></i></span>
+                                    Featured
+                                </button>
+                                <button class="filter-btn" data-sort="price-low">
+                                    <span class="filter-icon"><i class="fas fa-sort-amount-down"></i></span>
+                                    Price: Low to High
+                                </button>
+                                <button class="filter-btn" data-sort="price-high">
+                                    <span class="filter-icon"><i class="fas fa-sort-amount-up"></i></span>
+                                    Price: High to Low
+                                </button>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <div class="product-area">
+                        <div class="active-filters">
+                            <!-- Active filters will be rendered here -->
+                        </div>
+                        <div id="shop-product-grid" class="products-grid">
+                            <!-- Flavoured Dry Fruits -->
+                            <div class="product-card" data-category="Flavoured Dry Fruits">
+                                <div class="product-image">
+                                    <img src="https://img.freepik.com/free-photo/dried-fruits-nuts_144627-18343.jpg" alt="Honey Roasted Almonds">
+                                    <div class="product-overlay">
+                                        <button class="quick-view-btn"><i class="fas fa-eye"></i></button>
+                                        <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <h3>Honey Roasted Almonds</h3>
+                                    <p>Sweet and crunchy almonds coated in natural honey</p>
+                                    <div class="product-price">
+                                        <span class="price">₹499</span>
+                                        <span class="weight">250g</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-card" data-category="Flavoured Dry Fruits">
+                                <div class="product-image">
+                                    <img src="https://img.freepik.com/free-photo/cashew-nuts_1339-87.jpg" alt="Spiced Cashews">
+                                    <div class="product-overlay">
+                                        <button class="quick-view-btn"><i class="fas fa-eye"></i></button>
+                                        <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <h3>Masala Cashews</h3>
+                                    <p>Premium cashews seasoned with aromatic Indian spices</p>
+                                    <div class="product-price">
+                                        <span class="price">₹599</span>
+                                        <span class="weight">250g</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Dehydrated Fruits -->
+                            <div class="product-card" data-category="Dehydrated Fruits">
+                                <div class="product-image">
+                                    <img src="https://img.freepik.com/free-photo/dried-fruits-arrangement_23-2148516043.jpg" alt="Mixed Berry Medley">
+                                    <div class="product-overlay">
+                                        <button class="quick-view-btn"><i class="fas fa-eye"></i></button>
+                                        <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <h3>Mixed Berry Medley</h3>
+                                    <p>A delightful mix of dehydrated strawberries, blueberries, and raspberries</p>
+                                    <div class="product-price">
+                                        <span class="price">₹449</span>
+                                        <span class="weight">200g</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Mouth Fresheners -->
+                            <div class="product-card" data-category="Mouth Fresheners">
+                                <div class="product-image">
+                                    <img src="https://img.freepik.com/free-photo/traditional-indian-mouth-freshener-mukhwas-saunf-sweet-after-meal-digestive-chew_558828-2629.jpg" alt="Royal Mukhwas">
+                                    <div class="product-overlay">
+                                        <button class="quick-view-btn"><i class="fas fa-eye"></i></button>
+                                        <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <h3>Royal Mukhwas</h3>
+                                    <p>Premium blend of fennel, sesame, and aromatic spices</p>
+                                    <div class="product-price">
+                                        <span class="price">₹299</span>
+                                        <span class="weight">150g</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-card" data-category="Mouth Fresheners">
+                                <div class="product-image">
+                                    <img src="https://img.freepik.com/free-photo/mix-spices-wood-bowl_1150-42704.jpg" alt="Gulkand Mukhwas">
+                                    <div class="product-overlay">
+                                        <button class="quick-view-btn"><i class="fas fa-eye"></i></button>
+                                        <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <h3>Gulkand Mukhwas</h3>
+                                    <p>Sweet and fragrant blend with rose petal preserve</p>
+                                    <div class="product-price">
+                                        <span class="price">₹349</span>
+                                        <span class="weight">150g</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="recommended-section">
+                            <h2>Recommended for You</h2>
+                            <div id="recommended-product-grid" class="products-grid">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://img.freepik.com/free-photo/delicious-dried-fruit-arrangement_23-2149067881.jpg" alt="Premium Mixed Dry Fruits">
+                                        <div class="product-overlay">
+                                            <button class="quick-view-btn"><i class="fas fa-eye"></i></button>
+                                            <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Premium Mixed Dry Fruits</h3>
+                                        <p>Luxury assortment of premium nuts and dried fruits</p>
+                                        <div class="product-price">
+                                            <span class="price">₹999</span>
+                                            <span class="weight">500g</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://img.freepik.com/free-photo/dried-dates-wooden-bowl_114579-77149.jpg" alt="Medjool Dates">
+                                        <div class="product-overlay">
+                                            <button class="quick-view-btn"><i class="fas fa-eye"></i></button>
+                                            <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Premium Medjool Dates</h3>
+                                        <p>Large, soft and naturally sweet Medjool dates</p>
+                                        <div class="product-price">
+                                            <span class="price">₹799</span>
+                                            <span class="weight">400g</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://img.freepik.com/free-photo/dried-figs-bowl_144627-12044.jpg" alt="Turkish Figs">
+                                        <div class="product-overlay">
+                                            <button class="quick-view-btn"><i class="fas fa-eye"></i></button>
+                                            <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Turkish Dried Figs</h3>
+                                        <p>Sweet and tender dried figs from Turkey</p>
+                                        <div class="product-price">
+                                            <span class="price">₹649</span>
+                                            <span class="weight">300g</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <!-- Recommended products will be rendered here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="shop.html">All Products</a></li>
+                        <li><a href="shop.html#flavoured-dry-fruits">Flavoured Dry Fruits</a></li>
+                        <li><a href="shop.html#dehydrated-fruits">Dehydrated Fruits</a></li>
+                        <li><a href="shop.html#mouth-fresheners">Mouth Fresheners</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column newsletter">
+                    <h3>Join Our Newsletter</h3>
+                    <p>Get exclusive deals and updates straight to your inbox.</p>
+                    <form id="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="payment-icons">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

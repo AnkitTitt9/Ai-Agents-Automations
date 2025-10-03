@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes - Manwaar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="custom-cursor"></div>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html" aria-label="Manwaar home">
+                <img src="manwaar logo/Gemini_Generated_Image_i5vhwhi5vhwhi5vh (1).png" alt="Manwaar" />
+            </a>
+            <nav class="main-nav" role="navigation" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="blog-1.html">Blog</a></li>
+                </ul>
+            </nav>
+            <div class="utilities">
+                <a href="#" id="search-icon" aria-label="Search"><i class="fas fa-search"></i></a>
+                <a href="profile.html" aria-label="Profile"><i class="fas fa-user"></i></a>
+                <a href="cart.html" aria-label="Shopping Cart"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="recipes-hero" class="hero">
+            <div class="hero-bg" style="background-image:url('https://img.freepik.com/free-photo/top-view-assortment-nuts-seeds-bowls_23-2148429309.jpg')" aria-hidden="true"></div>
+            <div class="hero-content container">
+                <h1>Delicious <span class="gold">Recipes</span></h1>
+                <p class="hero-sub">Discover creative ways to enjoy our premium products.</p>
+            </div>
+        </section>
+
+        <section id="recipes" class="section">
+            <div class="container">
+                <div class="recipe-header">
+                    <h2>Our Collection</h2>
+                    <p>Explore our curated selection of recipes featuring Manwaar products.</p>
+                </div>
+
+                <div class="recipe-categories">
+                    <button class="category-tag active" data-category="all">All Recipes</button>
+                    <button class="category-tag" data-category="breakfast">Breakfast</button>
+                    <button class="category-tag" data-category="snacks">Snacks</button>
+                    <button class="category-tag" data-category="desserts">Desserts</button>
+                </div>
+
+                <div class="recipe-grid">
+                    <article class="recipe-card" data-category="breakfast">
+                        <div class="recipe-image">
+                            <img src="https://img.freepik.com/free-photo/granola-with-yogurt-nuts-fruits-glass_114579-2605.jpg" alt="Morning Sunshine Bowl">
+                        </div>
+                        <div class="recipe-content">
+                            <div class="recipe-meta">
+                                <span class="meta-item">
+                                    <i class="far fa-clock"></i>
+                                    5 mins
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-utensils"></i>
+                                    4 servings
+                                </span>
+                            </div>
+                            <h3>Morning Sunshine Bowl</h3>
+                            <p>A refreshing and healthy start to your day with our dehydrated fruits and nuts.</p>
+                            <div class="recipe-footer">
+                                <div class="difficulty">
+                                    <i class="fas fa-star"></i>
+                                    <span>Easy</span>
+                                </div>
+                                <button class="btn btn-primary btn-sm view-recipe">View Recipe</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="recipe-card" data-category="snacks">
+                        <div class="recipe-image">
+                            <img src="https://img.freepik.com/free-photo/top-view-delicious-salad-with-quinoa-pomegranate_23-2148429315.jpg" alt="Spicy Nut Salad">
+                        </div>
+                        <div class="recipe-content">
+                            <div class="recipe-meta">
+                                <span class="meta-item">
+                                    <i class="far fa-clock"></i>
+                                    15 mins
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-utensils"></i>
+                                    2 servings
+                                </span>
+                            </div>
+                            <h3>Spicy Nut Salad</h3>
+                            <p>A zesty and flavorful salad with our spicy masala cashews.</p>
+                            <div class="recipe-footer">
+                                <div class="difficulty">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>Medium</span>
+                                </div>
+                                <button class="btn btn-primary btn-sm view-recipe">View Recipe</button>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="recipe-card" data-category="desserts">
+                        <div class="recipe-image">
+                            <img src="https://img.freepik.com/free-photo/top-view-sweet-dessert-with-nuts-fruits_23-2148429306.jpg" alt="Fruity Nut Bars">
+                        </div>
+                        <div class="recipe-content">
+                            <div class="recipe-meta">
+                                <span class="meta-item">
+                                    <i class="far fa-clock"></i>
+                                    30 mins
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-utensils"></i>
+                                    8 servings
+                                </span>
+                            </div>
+                            <h3>Fruity Nut Bars</h3>
+                            <p>Homemade energy bars packed with the goodness of dry fruits and nuts.</p>
+                            <div class="recipe-footer">
+                                <div class="difficulty">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>Advanced</span>
+                                </div>
+                                <button class="btn btn-primary btn-sm view-recipe">View Recipe</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="shop.html">All Products</a></li>
+                        <li><a href="shop.html#flavoured-dry-fruits">Flavoured Dry Fruits</a></li>
+                        <li><a href="shop.html#dehydrated-fruits">Dehydrated Fruits</a></li>
+                        <li><a href="shop.html#mouth-fresheners">Mouth Fresheners</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column newsletter">
+                    <h3>Join Our Newsletter</h3>
+                    <p>Get exclusive deals and updates straight to your inbox.</p>
+                    <form id="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="payment-icons">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="js/recipes.js"></script>
+</body>
+</html>
